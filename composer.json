@@ -1,0 +1,24 @@
+{
+    "name": "coby/quick-seed",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Coby\\QuickSeed\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Coby\\QuickSeed\\QuickSeedServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "cobyhilburn",
+            "email": "cobyhilburn7@gmail.com"
+        }
+    ],
+    "require": {}
+}
